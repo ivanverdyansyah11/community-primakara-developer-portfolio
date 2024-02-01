@@ -8,6 +8,11 @@
     src: url('../font/Urbanist-SemiBold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'urbanist-bold';
+    src: url('../font/Urbanist-Bold.ttf') format('truetype');
+}
+
 :root {
     --primary-color: 25, 178, 185;
     --dark-color: 18, 18, 18;
@@ -20,6 +25,7 @@
 
     --urbanist-medium: 'urbanist-medium', Arial, Helvetica, sans-serif;
     --urbanist-semibold: 'urbanist-semibold', Arial, Helvetica, sans-serif;
+    --urbanist-bold: 'urbanist-bold', Arial, Helvetica, sans-serif;
 }
 
 * {
