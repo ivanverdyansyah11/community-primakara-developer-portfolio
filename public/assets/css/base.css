@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'urbanist-medium';
+    src: url('../font/Urbanist-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-semibold';
+    src: url('../font/Urbanist-SemiBold.ttf') format('truetype');
+}
+
+:root {
+    --primary-color: 25, 178, 185;
+    --dark-color: 18, 18, 18;
+    --light-color: 255, 255, 255;
+    --gradient-color: linear-gradient(to bottom right, rgb(255, 255, 255, 1), rgb(255, 255, 255, 0));
+
+    --transition-duration: 250ms;
+
+    --urbanist-medium: 'urbanist-medium', Arial, Helvetica, sans-serif;
+    --urbanist-semibold: 'urbanist-semibold', Arial, Helvetica, sans-serif;
+}
+
+* {
+    transition: var(--transition-duration) !important;
+}
+
+body {
+    background-color: rgba(var(--dark-color), 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    font-family: var(--urbanist-medium) !important;
+    color: rgba(var(--light-color), 1);
+    line-height: 150%;
+}
+
+.arrow-dark {
+    width: 27px;
+    height: 10px;
+    background-image: url('../images/icons/arrow-dark.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.button-primary-small {
+    all: unset;
+    padding: 14px 22px;
+    font-size: 0.875rem;
+    color: rgba(var(--dark-color), 1);
+    border-radius: 9999px;
+    cursor: pointer;
+    background-color: rgba(var(--primary-color), 1);
+    gap: 8px;
+    transition: var(--transition-duration);
+    position: relative;
+    overflow: hidden;
+}
+
+.button-primary-small > * {
+    position: relative;
+    transition: var(--transition-duration);
+}
+
+.button-primary-small:hover > .arrow-dark {
+    transform: translateX(6px);
+}
+
+.button-primary-small::before {
+    content: "";
+    width: 400px;
+    height: 100px;
+    background-color: rgba(var(--light-color), 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    rotate: 90deg;
+    transform-origin: left top;
+    transition: var(--transition-duration);
+}
+
+.button-primary-small:hover::before {
+    rotate: 0deg;
+}
