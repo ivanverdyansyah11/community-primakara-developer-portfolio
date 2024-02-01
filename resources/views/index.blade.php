@@ -1,6 +1,7 @@
 @extends('layout.main')
 
 @section('content-page')
+    {{-- SECTION HERO --}}
     <section class="hero text-lg-center">
         <div class="row justify-content-lg-center">
             <div class="col-xxl-10 d-flex flex-column align-items-lg-center">
@@ -17,7 +18,9 @@
             </div>
         </div>
     </section>
+    {{-- END SECTION HERO --}}
 
+    {{-- SECTION CLASSES --}}
     <section class="classes">
         <div class="row row-cols-md-2 row-cols-xl-3">
             <div class="col">
@@ -82,6 +85,83 @@
             </div>
         </div>
     </section>
+    {{-- END SECTION CLASSES --}}
+
+    <section class="event section-gap">
+        <div class="row justify-content-between align-items-end">
+            <div class="col-lg-7 mb-3 mb-lg-0">
+                <h2 class="title">Unforgettable Moments from Primakara Developer Community Events</h2>
+            </div>
+            <div class="col-lg-4">
+                <p class="paragraph-small">Journey with us through the memories of our past events at Primakara Developer Community.</p>
+            </div>
+        </div>
+        <div class="row content-gap" style="padding-bottom: 56px;">
+            <div class="col-12">
+                <div class="swiper-wrapper position-relative">
+                    <div class="swiper mySwiper swiperEvent">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-event">
+                                    <img src="{{ asset('assets/images/events/event-1.jpg') }}" alt="Event Image" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-event">
+                                    <img src="{{ asset('assets/images/events/event-2.jpg') }}" alt="Event Image" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-event">
+                                    <img src="{{ asset('assets/images/events/event-3.jpg') }}" alt="Event Image" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-event">
+                                    <img src="{{ asset('assets/images/events/event-4.jpg') }}" alt="Event Image" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-event">
+                                    <img src="{{ asset('assets/images/events/event-5.jpg') }}" alt="Event Image" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-event">
+                                    <img src="{{ asset('assets/images/events/event-6.jpg') }}" alt="Event Image" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-event">
+                                    <img src="{{ asset('assets/images/events/event-7.jpg') }}" alt="Event Image" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     @include('modals.class')
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".swiperEvent", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+            },
+        });
+    </script>
 @endsection
