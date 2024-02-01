@@ -1,0 +1,51 @@
+.card-classes {
+    outline: none;
+    stroke: none;
+    padding: 32px;
+    border-radius: 22px;
+    background-color: var(--bg-gradient-color);
+    background-image: var(--gradient-color);
+    border: 1px solid rgba(var(--light-color), 0.12);
+    text-align: start;
+}
+
+.card-classes:hover {
+    border: 1px solid rgba(var(--light-color), 1);
+}
+
+.card-classes .card-headline {
+    font-size: 1.5rem;
+    font-family: var(--urbanist-semibold) !important;
+    margin-bottom: 12px;
+}
+
+.card-classes .card-description {
+    font-size: 0.913rem;
+    color: rgba(var(--light-color), 0.52);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+            line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 32px;
+}
+
+.card-classes .following-wrapper,
+.card-classes .mentor-wrapper {
+    gap: 12px;
+}
+
+.card-classes .following-icon,
+.card-classes .mentor-icon {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(var(--primary-color), 1);
+    border-radius: 3px;
+}
+
+.card-classes .following-value,
+.card-classes .mentor-value {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.72);
+}
