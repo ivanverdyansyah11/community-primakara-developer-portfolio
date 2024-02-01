@@ -36,11 +36,18 @@ h3,
 h4,
 h5,
 h6,
-a,
 p {
     font-family: var(--urbanist-medium) !important;
     color: rgba(var(--light-color), 1);
     line-height: 150%;
+    margin-bottom: 0;
+}
+
+a,
+button {
+    text-decoration: none;
+    display: inline-block;
+    font-family: var(--urbanist-medium) !important;
 }
 
 .arrow-dark {
