@@ -147,6 +147,25 @@ button {
     color: rgba(var(--light-color), 0.52);
 }
 
+.title {
+    font-size: 2.25rem;
+    font-family: var(--urbanist-semibold);
+    line-height: 126% !important;
+}
+
+.paragraph-small {
+    font-size: 0.913rem;
+    color: rgba(var(--light-color), 0.52);
+}
+
+.section-gap {
+    margin-top: 142px;
+}
+
+.content-gap {
+    margin-top: 56px;
+}
+
 @media (max-width: 767.98px) {
     .headline {
         font-size: 2.375rem;
@@ -154,5 +173,9 @@ button {
 
     .paragraph {
         font-size: 0.913rem;
+    }
+
+    .title {
+        font-size: 1.875rem;
     }
 }
