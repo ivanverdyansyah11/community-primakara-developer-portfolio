@@ -87,6 +87,7 @@
     </section>
     {{-- END SECTION CLASSES --}}
 
+    {{-- SECTION EVENT --}}
     <section class="event section-gap">
         <div class="row justify-content-between align-items-end">
             <div class="col-lg-7 mb-3 mb-lg-0">
@@ -139,6 +140,25 @@
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- END SECTION EVENT --}}
+
+    <section class="benefit section-gap">
+        <div class="row justify-content-between align-items-end">
+            <div class="col-lg-7 mb-3 mb-lg-0">
+                <h2 class="title">Benefits of Joining Primakara Developer Community</h2>
+            </div>
+            <div class="col-lg-4">
+                <p class="paragraph-small">Joining our vibrant community opens the door to a world of opportunities and advantages.</p>
+            </div>
+        </div>
+        <div class="row row-cols-md-2 row-cols-lg-4 content-gap">
+            <div class="col">
+                <div class="card-default">
+                    
                 </div>
             </div>
         </div>
