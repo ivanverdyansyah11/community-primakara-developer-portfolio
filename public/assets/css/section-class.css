@@ -49,3 +49,14 @@
     font-size: 0.875rem;
     color: rgba(var(--light-color), 0.72);
 }
+
+@media (max-width: 767.98px) {
+    .card-classes .card-headline {
+        font-size: 1.375rem;
+        margin-bottom: 8px;
+    }
+
+    .card-classes {
+        padding: 26px;
+    }
+}
