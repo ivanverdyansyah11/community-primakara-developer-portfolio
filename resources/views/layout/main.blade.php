@@ -7,6 +7,7 @@
     <title>Primakara Developer | {{ $title }}</title>
 
     {{-- STYLE CSS --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
     {{-- END STYLE CSS --}}
