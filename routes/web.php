@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::fallback(function () {
+    return redirect('/mainpage');
+});
+
+Route::controller(MainController::class)->group(function () {
+    Route::get('/mainpage', 'index')->name('mainpage');
+    Route::get('/portfolio', 'portfolio')->name('portfolio');
 });
