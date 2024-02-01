@@ -1,0 +1,18 @@
+section.portfolio .card-default img {
+    border-radius: 8px;
+    margin-bottom: 14px;
+    filter: saturate(0) !important;
+}
+
+section.portfolio .card-default:hover img {
+    filter: saturate(100%) !important;
+}
+
+section.portfolio .card-default .card-default-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+            line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
