@@ -32,6 +32,7 @@
     background-color: rgba(var(--dark-color), 1);
     opacity: 1;
     transition: 800ms !important;
+    z-index: 9998;
 }
 
 .topbar.hide {
