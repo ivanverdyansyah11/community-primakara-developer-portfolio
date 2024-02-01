@@ -104,37 +104,37 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="card-event">
-                                    <img src="{{ asset('assets/images/events/event-1.jpg') }}" alt="Event Image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/events/event-1.webp') }}" alt="Event Image" class="img-fluid">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card-event">
-                                    <img src="{{ asset('assets/images/events/event-2.jpg') }}" alt="Event Image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/events/event-2.webp') }}" alt="Event Image" class="img-fluid">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card-event">
-                                    <img src="{{ asset('assets/images/events/event-3.jpg') }}" alt="Event Image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/events/event-3.webp') }}" alt="Event Image" class="img-fluid">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card-event">
-                                    <img src="{{ asset('assets/images/events/event-4.jpg') }}" alt="Event Image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/events/event-4.webp') }}" alt="Event Image" class="img-fluid">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card-event">
-                                    <img src="{{ asset('assets/images/events/event-5.jpg') }}" alt="Event Image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/events/event-5.webp') }}" alt="Event Image" class="img-fluid">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card-event">
-                                    <img src="{{ asset('assets/images/events/event-6.jpg') }}" alt="Event Image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/events/event-6.webp') }}" alt="Event Image" class="img-fluid">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="card-event">
-                                    <img src="{{ asset('assets/images/events/event-7.jpg') }}" alt="Event Image" class="img-fluid">
+                                    <img src="{{ asset('assets/images/events/event-7.webp') }}" alt="Event Image" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -158,7 +158,7 @@
         <div class="row row-cols-md-2 row-cols-lg-4 content-gap">
             <div class="col">
                 <div class="card-default">
-                    
+
                 </div>
             </div>
         </div>
