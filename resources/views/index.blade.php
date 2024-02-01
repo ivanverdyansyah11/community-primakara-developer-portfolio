@@ -155,16 +155,48 @@
                 <p class="paragraph-small">Joining our vibrant community opens the door to a world of opportunities and advantages.</p>
             </div>
         </div>
-        <div class="row row-cols-md-2 row-cols-lg-4 content-gap">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 content-gap">
             <div class="col">
-                <div class="card-default">
-
-                </div>
+                <button type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitOneModal">
+                    <div class="benefit-icon d-flex justify-content-center align-items-center">
+                        <img src="{{ asset('assets/images/benefits/benefit-1.svg') }}" alt="Benefit Icon" class="img-fluid" width="24">
+                    </div>
+                    <h6 class="card-default-title">Collaborative Learning</h6>
+                    <p class="card-default-description">Engage in collaborative projects and group activities, fostering an environment where knowledge is shared freely, and members learn from each other's experiences.</p>
+                </button>
+            </div>
+            <div class="col mt-4 mt-md-0">
+                <button type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitTwoModal">
+                    <div class="benefit-icon d-flex justify-content-center align-items-center">
+                        <img src="{{ asset('assets/images/benefits/benefit-2.svg') }}" alt="Benefit Icon" class="img-fluid" width="24">
+                    </div>
+                    <h6 class="card-default-title">Exclusive Access to Resources</h6>
+                    <p class="card-default-description">Gain access to a wealth of exclusive resources, including workshops, tutorials, and cutting-edge materials, designed to empower you with the latest skills and insights in the fast-paced world of technology.</p>
+                </button>
+            </div>
+            <div class="col mt-4 mt-lg-0">
+                <button type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitThreeModal">
+                    <div class="benefit-icon d-flex justify-content-center align-items-center">
+                        <img src="{{ asset('assets/images/benefits/benefit-3.svg') }}" alt="Benefit Icon" class="img-fluid" width="24">
+                    </div>
+                    <h6 class="card-default-title">Networking Opportunities</h6>
+                    <p class="card-default-description">Connect with a diverse network of industry professionals, mentors, and fellow developers. Build meaningful relationships that can open doors to new opportunities, collaborations, and career advancements.</p>
+                </button>
+            </div>
+            <div class="col mt-4 mt-lg-0">
+                <button type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitFourModal">
+                    <div class="benefit-icon d-flex justify-content-center align-items-center">
+                        <img src="{{ asset('assets/images/benefits/benefit-4.svg') }}" alt="Benefit Icon" class="img-fluid" width="24">
+                    </div>
+                    <h6 class="card-default-title">Community Support</h6>
+                    <p class="card-default-description">Experience the power of community support. Seek advice, share challenges, and receive mentorship from experienced developers within the Primakara community. Accelerate your learning and career growth with the guidance of seasoned professionals.</p>
+                </button>
             </div>
         </div>
     </section>
 
     @include('modals.class')
+    @include('modals.benefit')
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
