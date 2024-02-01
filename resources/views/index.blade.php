@@ -139,7 +139,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination swiper-pagination-event"></div>
                 </div>
             </div>
         </div>
@@ -326,6 +326,78 @@
     </section>
     {{-- END SECTION PORTFOLIO --}}
 
+    {{-- SECTION TESTIMONIAL --}}
+    <section class="testimonial section-gap">
+        <div class="row justify-content-between align-items-end">
+            <div class="col-lg-7 mb-3 mb-lg-0">
+                <h2 class="title">Voices of Primakara Developer, Member Testimonials</h2>
+            </div>
+            <div class="col-lg-4">
+                <p class="paragraph-small">Discover the impact of community through the voices of our members.</p>
+            </div>
+        </div>
+        <div class="row content-gap" style="padding-bottom: 56px;">
+            <div class="col-12">
+                <div class="swiper-wrapper position-relative">
+                    <div class="swiper mySwiper swiperTestimonial">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-1.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
+                                    <p class="card-default-description">"The collaborative atmosphere and wealth of resources have accelerated my learning journey in ways I couldn't have imagined."</p>
+                                    <h6 class="username">Devina Putri</h6>
+                                    <p class="job">Software Engineer</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-2.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
+                                    <p class="card-default-description">“Primakara Developer Community is more than just a network; it's a catalyst for professional growth.”</p>
+                                    <h6 class="username">Putra Hartawan</h6>
+                                    <p class="job">Information Systems</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-3.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
+                                    <p class="card-default-description">“Primakara Developer Community is a dynamic ecosystem that nurtures creativity and innovation.”</p>
+                                    <h6 class="username">Aditya Prayatna</h6>
+                                    <p class="job">Software Engineer</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-4.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
+                                    <p class="card-default-description">“Being a member of Primakara Developer Community has been a transformative experience.”</p>
+                                    <h6 class="username">Ayu Adistie</h6>
+                                    <p class="job">Software Engineer</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-5.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
+                                    <p class="card-default-description">"The collaborative spirit and diverse projects have not only expanded my technical skills."</p>
+                                    <h6 class="username">Desta Manakan</h6>
+                                    <p class="job">Information Systems</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-6.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
+                                    <p class="card-default-description">"The community's commitment to knowledge-sharing and collaboration is unmatched."</p>
+                                    <h6 class="username">Alice Alicia</h6>
+                                    <p class="job">Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- END SECTION TESTIMONIAL --}}
+
     @include('modals.class')
     @include('modals.benefit')
     @include('modals.portfolio')
@@ -369,17 +441,41 @@
                 })
             });
 
-            const swiper = new Swiper(".swiperEvent", {
+            const swiperEvent = new Swiper(".swiperEvent", {
                 slidesPerView: 1,
                 spaceBetween: 20,
                 loop: true,
                 pagination: {
-                    el: ".swiper-pagination",
+                    el: ".swiper-pagination-event",
                     clickable: true,
                 },
                 breakpoints: {
                     768: {
                         slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                },
+            });
+
+            const swiperTestimonial = new Swiper(".swiperTestimonial", {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination-testimonial",
+                    clickable: true,
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    992: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                    },
+                    1200: {
+                        slidesPerView: 4,
                         spaceBetween: 20,
                     },
                 },
