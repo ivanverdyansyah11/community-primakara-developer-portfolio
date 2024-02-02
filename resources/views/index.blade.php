@@ -398,6 +398,140 @@
     </section>
     {{-- END SECTION TESTIMONIAL --}}
 
+    {{-- SECTION FAQ --}}
+    <section class="faq section-gap">
+        <div class="row justify-content-between align-items-end">
+            <div class="col-lg-7 mb-3 mb-lg-0">
+                <h2 class="title">Frequently Asked Questions About Primakara Developer</h2>
+            </div>
+            <div class="col-lg-4">
+                <p class="paragraph-small">Have questions about Primakara Developer Community? We've got answers.</p>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-2 content-gap">
+            <div class="col">
+                <button type="button" class="card-default card-faq show">
+                    <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
+                        <h6 class="card-default-title">How can I join Primakara Developer Community?</h6>
+                        <div class="arrow-icon d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/images/icons/arrow-down-dark.svg') }}" alt="Arrow Down Dark" class="img-fluid" width="10">
+                        </div>
+                    </div>
+                    <div class="paragraph-wrapper">
+                        <p class="card-default-description">To join Primakara Developer Community, simply navigate to our website and look for the 'Join Now' button. Follow the registration process, and you'll become a part of our dynamic community.</p>
+                    </div>
+                </button>
+
+                <button type="button" class="card-default card-faq mt-4">
+                    <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
+                        <h6 class="card-default-title">What resources are available for learning and skill development?</h6>
+                        <div class="arrow-icon d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/images/icons/arrow-down-dark.svg') }}" alt="Arrow Down Dark" class="img-fluid" width="10">
+                        </div>
+                    </div>
+                    <div class="paragraph-wrapper">
+                        <p class="card-default-description">Primakara offers a rich set of resources, including workshops, tutorials, and learning materials. Access these resources through the 'Learning Hub' to enhance your skills and stay updated on the latest industry trends.</p>
+                    </div>
+                </button>
+
+                <button type="button" class="card-default card-faq mt-4">
+                    <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
+                        <h6 class="card-default-title">Are there networking opportunities within the community?</h6>
+                        <div class="arrow-icon d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/images/icons/arrow-down-dark.svg') }}" alt="Arrow Down Dark" class="img-fluid" width="10">
+                        </div>
+                    </div>
+                    <div class="paragraph-wrapper">
+                        <p class="card-default-description">Absolutely! Primakara hosts regular events, webinars, and meetups, providing ample opportunities to connect with industry professionals, mentors, and fellow developers.</p>
+                    </div>
+                </button>
+
+                <button type="button" class="card-default card-faq mt-4">
+                    <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
+                        <h6 class="card-default-title">How can I stay updated on community events and announcements?</h6>
+                        <div class="arrow-icon d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/images/icons/arrow-down-dark.svg') }}" alt="Arrow Down Dark" class="img-fluid" width="10">
+                        </div>
+                    </div>
+                    <div class="paragraph-wrapper">
+                        <p class="card-default-description">Stay informed by regularly checking the 'Events' section on our platform. Additionally, subscribe to our newsletter for regular updates, announcements, and exclusive content delivered directly to your inbox.</p>
+                    </div>
+                </button>
+            </div>
+            <div class="col mt-4 mt-lg-0">
+                <button type="button" class="card-default card-faq">
+                    <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
+                        <h6 class="card-default-title">How can I contribute to projects within the community?</h6>
+                        <div class="arrow-icon d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/images/icons/arrow-down-dark.svg') }}" alt="Arrow Down Dark" class="img-fluid" width="10">
+                        </div>
+                    </div>
+                    <div class="paragraph-wrapper">
+                        <p class="card-default-description">Contributing to projects is easy! Explore the 'Projects' section, express your interest, and join ongoing initiatives. Engage with project leaders and fellow members to bring your skills and ideas to the table.</p>
+                    </div>
+                </button>
+
+                <button type="button" class="card-default card-faq mt-4">
+                    <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
+                        <h6 class="card-default-title">How can I showcase my own projects on the community platform?</h6>
+                        <div class="arrow-icon d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/images/icons/arrow-down-dark.svg') }}" alt="Arrow Down Dark" class="img-fluid" width="10">
+                        </div>
+                    </div>
+                    <div class="paragraph-wrapper">
+                        <p class="card-default-description">Members can showcase their projects by submitting them to the community platform. Head to the 'Project Portfolio' section, follow the guidelines, and present your projects to the Primakara community.</p>
+                    </div>
+                </button>
+
+                <button type="button" class="card-default card-faq mt-4">
+                    <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
+                        <h6 class="card-default-title">Is there a mentorship program available for community members?</h6>
+                        <div class="arrow-icon d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/images/icons/arrow-down-dark.svg') }}" alt="Arrow Down Dark" class="img-fluid" width="10">
+                        </div>
+                    </div>
+                    <div class="paragraph-wrapper">
+                        <p class="card-default-description">Yes, Primakara offers a mentorship program. Members interested in mentorship can express their interest, and we'll connect you with experienced mentors within the community.</p>
+                    </div>
+                </button>
+
+                <button type="button" class="card-default card-faq mt-4">
+                    <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
+                        <h6 class="card-default-title">Is there a membership fee to join Primakara Developer Community?</h6>
+                        <div class="arrow-icon d-flex align-items-center justify-content-center">
+                            <img src="{{ asset('assets/images/icons/arrow-down-dark.svg') }}" alt="Arrow Down Dark" class="img-fluid" width="10">
+                        </div>
+                    </div>
+                    <div class="paragraph-wrapper">
+                        <p class="card-default-description">No, membership in Primakara Developer Community is free. We believe in fostering an inclusive environment where developers can collaborate and learn without any financial barriers.</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+    {{-- END SECTION FAQ --}}
+
+    {{-- SECTION CTA --}}
+    <section class="cta section-gap position-relative">
+        <div class="style-one"></div>
+        <div class="style-two"></div>
+        <div class="row justify-content-center position-relative">
+            <div class="col-11 col-lg-10 text-lg-center d-flex flex-column align-items-lg-center justify-content-lg-center">
+                <h1 class="headline">Unlock Your Potential with Primakara Developer Community</h1>
+                <p class="paragraph">Join a thriving community of passionate developers at Primakara. Whether you're a seasoned coder or just starting your journey, our community offers a dynamic space to collaborate, learn, and innovate.</p>
+                <div class="button-group d-flex">
+                    <a href="#" class="button-primary">
+                        <span>Join the Community</span>
+                    </a>
+                    <a href="#" class="button-reverse">
+                        <span>Explore Projects</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- END SECTION CTA --}}
+
     @include('modals.class')
     @include('modals.benefit')
     @include('modals.portfolio')
@@ -406,13 +540,21 @@
     @push('script')
         <script>
             const buttonSmall = document.querySelectorAll('.button-small');
-            const buttonHistory = document.querySelector('.button-history');
-            const buttonVission = document.querySelector('.button-vission');
-            const buttonGoal = document.querySelector('.button-goal');
-
             const paragraphAbout = document.querySelector('.paragraph-about');
             const paragraphOne = document.querySelector('.paragraph-one');
             const paragraphTwo = document.querySelector('.paragraph-two');
+
+            const cardFaq = document.querySelectorAll('.card-faq');
+
+            cardFaq.forEach(card => {
+                card.addEventListener('click', function() {
+                    if (!card.classList.contains('show')) {
+                        const cardFaqShow = document.querySelector('.card-faq.show');
+                        cardFaqShow.classList.remove('show');
+                        card.classList.add('show');
+                    }
+                })
+            }); 
 
             buttonSmall.forEach(button => {
                 button.addEventListener('click', function() {
@@ -444,7 +586,6 @@
             const swiperEvent = new Swiper(".swiperEvent", {
                 slidesPerView: 1,
                 spaceBetween: 20,
-                loop: true,
                 pagination: {
                     el: ".swiper-pagination-event",
                     clickable: true,
@@ -460,7 +601,6 @@
             const swiperTestimonial = new Swiper(".swiperTestimonial", {
                 slidesPerView: 1,
                 spaceBetween: 20,
-                loop: true,
                 pagination: {
                     el: ".swiper-pagination-testimonial",
                     clickable: true,
