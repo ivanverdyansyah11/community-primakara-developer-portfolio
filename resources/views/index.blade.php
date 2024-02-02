@@ -530,95 +530,95 @@
         </div>
     </section>
     {{-- END SECTION CTA --}}
-
-    @include('modals.class')
-    @include('modals.benefit')
-    @include('modals.portfolio')
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    @push('script')
-        <script>
-            const buttonSmall = document.querySelectorAll('.button-small');
-            const paragraphAbout = document.querySelector('.paragraph-about');
-            const paragraphOne = document.querySelector('.paragraph-one');
-            const paragraphTwo = document.querySelector('.paragraph-two');
-
-            const cardFaq = document.querySelectorAll('.card-faq');
-
-            cardFaq.forEach(card => {
-                card.addEventListener('click', function() {
-                    if (!card.classList.contains('show')) {
-                        const cardFaqShow = document.querySelector('.card-faq.show');
-                        cardFaqShow.classList.remove('show');
-                        card.classList.add('show');
-                    }
-                })
-            }); 
-
-            buttonSmall.forEach(button => {
-                button.addEventListener('click', function() {
-                    if (!button.classList.contains('active')) {
-                        const buttonActive = document.querySelector('.button-small.active');
-                        buttonActive.classList.remove('active');
-
-                        button.classList.add('active');
-                        paragraphAbout.classList.add('hide');
-
-                        setTimeout(() => {
-                            if (button.classList.contains('button-history')) {
-                                paragraphOne.innerHTML = 'At Primakara Developer Community, we believe in the transformative power of collaboration and code. Our community is a vibrant hub where developers, creators, and innovators converge to share knowledge, and build projects.';
-                                paragraphTwo.innerHTML = 'Discover the essence of Primakara, where passion meets proficiency, and where every line of code contributes to a collective journey of digital excellence.';
-                            } else if (button.classList.contains('button-vission')) {
-                                paragraphOne.innerHTML = 'At Primakara Developer, our vision is to empower a global community of developers, fostering a collaborative environment that drives innovation and excellence in technology.';
-                                paragraphTwo.innerHTML = 'Our mission is to provide a dynamic platform where developers can learn, connect, and contribute to impactful projects. By nurturing a culture of continuous learning and collaboration, we strive to be a catalyst for positive change in the digital landscape. Join us as we collectively shape the future of technology.';
-                            } else if (button.classList.contains('button-goal')) {
-                                paragraphOne.innerHTML = 'At Primakara Developer, our purpose is to create a vibrant and inclusive space where developers thrive in innovation and collaboration. We envision a community-driven by a shared passion for technology and a commitment to continuous learning.';
-                                paragraphTwo.innerHTML = 'Our goals include fostering a culture of knowledge-sharing, providing valuable resources, and building a supportive environment where every developer can achieve their full potential. Join us in our journey to advance skills, create meaningful connections, and contribute to the ever-evolving world of technology.';
-                            }
-                            
-                            paragraphAbout.classList.remove('hide');
-                        }, '500');
-                    }
-                })
-            });
-
-            const swiperEvent = new Swiper(".swiperEvent", {
-                slidesPerView: 1,
-                spaceBetween: 20,
-                pagination: {
-                    el: ".swiper-pagination-event",
-                    clickable: true,
-                },
-                breakpoints: {
-                    768: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                    },
-                },
-            });
-
-            const swiperTestimonial = new Swiper(".swiperTestimonial", {
-                slidesPerView: 1,
-                spaceBetween: 20,
-                pagination: {
-                    el: ".swiper-pagination-testimonial",
-                    clickable: true,
-                },
-                breakpoints: {
-                    768: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                    },
-                    992: {
-                        slidesPerView: 3,
-                        spaceBetween: 20,
-                    },
-                    1200: {
-                        slidesPerView: 4,
-                        spaceBetween: 20,
-                    },
-                },
-            });
-        </script>
-    @endpush
 @endsection
+
+@include('modals.class')
+@include('modals.benefit')
+@include('modals.portfolio')
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+@push('script')
+    <script>
+        const buttonSmall = document.querySelectorAll('.button-small');
+        const paragraphAbout = document.querySelector('.paragraph-about');
+        const paragraphOne = document.querySelector('.paragraph-one');
+        const paragraphTwo = document.querySelector('.paragraph-two');
+
+        const cardFaq = document.querySelectorAll('.card-faq');
+
+        cardFaq.forEach(card => {
+            card.addEventListener('click', function() {
+                if (!card.classList.contains('show')) {
+                    const cardFaqShow = document.querySelector('.card-faq.show');
+                    cardFaqShow.classList.remove('show');
+                    card.classList.add('show');
+                }
+            })
+        }); 
+
+        buttonSmall.forEach(button => {
+            button.addEventListener('click', function() {
+                if (!button.classList.contains('active')) {
+                    const buttonActive = document.querySelector('.button-small.active');
+                    buttonActive.classList.remove('active');
+
+                    button.classList.add('active');
+                    paragraphAbout.classList.add('hide');
+
+                    setTimeout(() => {
+                        if (button.classList.contains('button-history')) {
+                            paragraphOne.innerHTML = 'At Primakara Developer Community, we believe in the transformative power of collaboration and code. Our community is a vibrant hub where developers, creators, and innovators converge to share knowledge, and build projects.';
+                            paragraphTwo.innerHTML = 'Discover the essence of Primakara, where passion meets proficiency, and where every line of code contributes to a collective journey of digital excellence.';
+                        } else if (button.classList.contains('button-vission')) {
+                            paragraphOne.innerHTML = 'At Primakara Developer, our vision is to empower a global community of developers, fostering a collaborative environment that drives innovation and excellence in technology.';
+                            paragraphTwo.innerHTML = 'Our mission is to provide a dynamic platform where developers can learn, connect, and contribute to impactful projects. By nurturing a culture of continuous learning and collaboration, we strive to be a catalyst for positive change in the digital landscape. Join us as we collectively shape the future of technology.';
+                        } else if (button.classList.contains('button-goal')) {
+                            paragraphOne.innerHTML = 'At Primakara Developer, our purpose is to create a vibrant and inclusive space where developers thrive in innovation and collaboration. We envision a community-driven by a shared passion for technology and a commitment to continuous learning.';
+                            paragraphTwo.innerHTML = 'Our goals include fostering a culture of knowledge-sharing, providing valuable resources, and building a supportive environment where every developer can achieve their full potential. Join us in our journey to advance skills, create meaningful connections, and contribute to the ever-evolving world of technology.';
+                        }
+                        
+                        paragraphAbout.classList.remove('hide');
+                    }, '500');
+                }
+            })
+        });
+
+        const swiperEvent = new Swiper(".swiperEvent", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            pagination: {
+                el: ".swiper-pagination-event",
+                clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+            },
+        });
+
+        const swiperTestimonial = new Swiper(".swiperTestimonial", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            pagination: {
+                el: ".swiper-pagination-testimonial",
+                clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+            },
+        });
+    </script>
+@endpush
