@@ -103,39 +103,39 @@
                     <div class="swiper mySwiper swiperEvent">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="card-event">
+                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-devfest-bali-2023/" class="card-event" target="_blank">
                                     <img src="{{ asset('assets/images/events/event-1.webp') }}" alt="Event Image" class="img-fluid">
-                                </div>
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card-event">
+                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-google-io-extended-bali-2023/" class="card-event" target="_blank">
                                     <img src="{{ asset('assets/images/events/event-2.webp') }}" alt="Event Image" class="img-fluid">
-                                </div>
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card-event">
-                                    <img src="{{ asset('assets/images/events/event-3.webp') }}" alt="Event Image" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card-event">
-                                    <img src="{{ asset('assets/images/events/event-4.webp') }}" alt="Event Image" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card-event">
-                                    <img src="{{ asset('assets/images/events/event-5.webp') }}" alt="Event Image" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card-event">
-                                    <img src="{{ asset('assets/images/events/event-6.webp') }}" alt="Event Image" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card-event">
+                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-gdg-bali-community-meetup-may-edition/" class="card-event" target="_blank">
                                     <img src="{{ asset('assets/images/events/event-7.webp') }}" alt="Event Image" class="img-fluid">
-                                </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-devfest-bali-2022/" class="card-event" target="_blank">
+                                    <img src="{{ asset('assets/images/events/event-6.webp') }}" alt="Event Image" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-women-techmakers-bali-first-meetup/" class="card-event" target="_blank">
+                                    <img src="{{ asset('assets/images/events/event-5.webp') }}" alt="Event Image" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-gdg-bali-x-pintu-introduction-to-web3/" class="card-event" target="_blank">
+                                    <img src="{{ asset('assets/images/events/event-4.webp') }}" alt="Event Image" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-google-io-extended-bali-2022/" class="card-event" target="_blank">
+                                    <img src="{{ asset('assets/images/events/event-3.webp') }}" alt="Event Image" class="img-fluid">
+                                </a>
                             </div>
                         </div>
                     </div>
