@@ -317,7 +317,7 @@
         </div>
         <div class="row content-gap">
             <div class="col-12 d-flex justify-content-center">
-                <a href="#" class="button-primary d-flex align-items-center">
+                <a href="{{ route('portfolio') }}" class="button-primary d-flex align-items-center">
                     <span>More Portoflio</span>
                     <div class="arrow-dark"></div>
                 </a>
