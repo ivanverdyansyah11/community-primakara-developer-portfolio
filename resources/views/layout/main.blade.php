@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
     {{-- END STYLE CSS --}}
 </head>
-<body class="mb-5 pb-5">
+<body id="home">
     
     @include('components.navbar')
     @include('components.topbar')
@@ -20,6 +20,8 @@
     <main class="container">
         @yield('content-page')
     </main>
+
+    @include('components.footer')
 
     {{-- SCRIPT JS --}}
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
