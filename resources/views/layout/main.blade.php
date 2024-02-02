@@ -19,6 +19,7 @@
 
     <main class="container">
         @yield('content-page')
+        @include('components.cta')
     </main>
 
     @include('components.footer')
