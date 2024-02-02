@@ -36,6 +36,10 @@ body {
     background-color: rgba(var(--dark-color), 1);
 }
 
+body.active {
+    overflow: hidden;
+}
+
 h1,
 h2,
 h3,
