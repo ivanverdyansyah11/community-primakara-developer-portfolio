@@ -2,16 +2,16 @@
 
 @section('content-page')
     {{-- SECTION HERO --}}
-    <section class="hero text-lg-center">
+    <section class="hero text-lg-center" id="hero">
         <div class="row justify-content-lg-center">
             <div class="col-xxl-10 d-flex flex-column align-items-lg-center">
                 <h1 class="headline">Empowering Developers, Building Futures Welcome to Primakara Developer Community</h1>
                 <p class="paragraph">Join a thriving ecosystem of passionate developers at Primakara Developer Community. Explore cutting-edge technologies, collaborate on innovative projects, and unlock a world of opportunities. Together, we code the future.</p>
                 <div class="button-group d-flex">
-                    <a href="#" class="button-primary">
+                    <a href="#event" class="button-primary">
                         <span>Explore Website Now</span>
                     </a>
-                    <a href="#" class="button-reverse">
+                    <a href="#portfolio" class="button-reverse">
                         <span>Discover Our Projects</span>
                     </a>
                 </div>
@@ -21,7 +21,7 @@
     {{-- END SECTION HERO --}}
 
     {{-- SECTION CLASSES --}}
-    <section class="classes">
+    <section class="classes" id="classes">
         <div class="row row-cols-md-2 row-cols-xl-3">
             <div class="col">
                 <button type="button" class="card-classes" data-bs-toggle="modal" data-bs-target="#designModal">
@@ -88,7 +88,7 @@
     {{-- END SECTION CLASSES --}}
 
     {{-- SECTION EVENT --}}
-    <section class="event section-gap">
+    <section class="event section-gap" id="event">
         <div class="row justify-content-between align-items-end">
             <div class="col-lg-7 mb-3 mb-lg-0">
                 <h2 class="title">Unforgettable Moments from Primakara Developer Community Events</h2>
@@ -147,7 +147,7 @@
     {{-- END SECTION EVENT --}}
 
     {{-- SECTION BENEFIT --}}
-    <section class="benefit section-gap">
+    <section class="benefit section-gap" id="benefit">
         <div class="row justify-content-between align-items-end">
             <div class="col-lg-7 mb-3 mb-lg-0">
                 <h2 class="title">Benefits of Joining Primakara Developer Community</h2>
@@ -198,7 +198,7 @@
     {{-- END SECTION BENEFIT --}}
 
     {{-- SECTION ABOUT --}}
-    <section class="about section-gap">
+    <section class="about section-gap" id="about">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6">
                 <h2 class="title">Empowering Innovators, Connecting Creators: The Primakara Developer Community Story</h2>
@@ -248,7 +248,7 @@
     {{-- END SECTION ABOUT --}}
 
     {{-- SECTION PORTFOLIO --}}
-    <section class="portfolio section-gap">
+    <section class="portfolio section-gap" id="portfolio">
         <div class="row justify-content-between align-items-end">
             <div class="col-lg-7 mb-3 mb-lg-0">
                 <h2 class="title">Primakara Developer Community Project Portfolio</h2>
@@ -327,7 +327,7 @@
     {{-- END SECTION PORTFOLIO --}}
 
     {{-- SECTION TESTIMONIAL --}}
-    <section class="testimonial section-gap">
+    <section class="testimonial section-gap" id="testimonial">
         <div class="row justify-content-between align-items-end">
             <div class="col-lg-7 mb-3 mb-lg-0">
                 <h2 class="title">Voices of Primakara Developer, Member Testimonials</h2>
@@ -399,7 +399,7 @@
     {{-- END SECTION TESTIMONIAL --}}
 
     {{-- SECTION FAQ --}}
-    <section class="faq section-gap">
+    <section class="faq section-gap" id="faq">
         <div class="row justify-content-between align-items-end">
             <div class="col-lg-7 mb-3 mb-lg-0">
                 <h2 class="title">Frequently Asked Questions About Primakara Developer</h2>
@@ -512,7 +512,7 @@
     {{-- END SECTION FAQ --}}
 
     {{-- SECTION CTA --}}
-    <section class="cta section-gap position-relative">
+    <section class="cta section-gap position-relative" id="cta">
         <div class="style"></div>
         <div class="row justify-content-center position-relative">
             <div class="col-11 col-lg-10 text-lg-center d-flex flex-column align-items-lg-center justify-content-lg-center">
