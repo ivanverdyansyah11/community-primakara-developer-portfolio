@@ -17,8 +17,8 @@
     --primary-color: 25, 178, 185;
     --dark-color: 18, 18, 18;
     --light-color: 255, 255, 255;
-    --bg-gradient-color: rgba(var(--light-color), 0.04);
-    --gradient-color: linear-gradient(to bottom right, rgb(255, 255, 255, 0.04), rgb(255, 255, 255, 0));
+    --bg-gradient-color: rgba(var(--light-color), 0.03);
+    --gradient-color: linear-gradient(to bottom right, rgb(255, 255, 255, 0.03), rgb(255, 255, 255, 0));
     --gradient-color-dark: linear-gradient(to bottom right, rgb(255, 255, 255, 0), rgb(255, 255, 255, 0));
 
     --transition-duration: 250ms;
