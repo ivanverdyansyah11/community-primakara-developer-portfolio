@@ -18,10 +18,10 @@
                 <div class="technology-item">Swiper</div>
             </div>
             <div class="button-group d-flex">
-                <a href="#" class="button-modal">
+                <a href="https://github.com/ivanverdyansyah11" class="button-modal" target="_blank">
                     See Github
                 </a>
-                <a href="#" class="button-modal">
+                <a href="https://primakara.ac.id/" class="button-modal" target="_blank">
                     See Preview
                 </a>
             </div>
@@ -49,10 +49,10 @@
                 <div class="technology-item">Swiper</div>
             </div>
             <div class="button-group d-flex">
-                <a href="#" class="button-modal">
+                <a href="https://github.com/ivanverdyansyah11" class="button-modal" target="_blank">
                     See Github
                 </a>
-                <a href="#" class="button-modal">
+                <a href="https://primakara.ac.id/" class="button-modal" target="_blank">
                     See Preview
                 </a>
             </div>
@@ -80,10 +80,10 @@
                 <div class="technology-item">Swiper</div>
             </div>
             <div class="button-group d-flex">
-                <a href="#" class="button-modal">
+                <a href="https://github.com/ivanverdyansyah11" class="button-modal" target="_blank">
                     See Github
                 </a>
-                <a href="#" class="button-modal">
+                <a href="https://primakara.ac.id/" class="button-modal" target="_blank">
                     See Preview
                 </a>
             </div>
@@ -111,10 +111,10 @@
                 <div class="technology-item">Swiper</div>
             </div>
             <div class="button-group d-flex">
-                <a href="#" class="button-modal">
+                <a href="https://github.com/ivanverdyansyah11" class="button-modal" target="_blank">
                     See Github
                 </a>
-                <a href="#" class="button-modal">
+                <a href="https://primakara.ac.id/" class="button-modal" target="_blank">
                     See Preview
                 </a>
             </div>
@@ -142,10 +142,10 @@
                 <div class="technology-item">Swiper</div>
             </div>
             <div class="button-group d-flex">
-                <a href="#" class="button-modal">
+                <a href="https://github.com/ivanverdyansyah11" class="button-modal" target="_blank">
                     See Github
                 </a>
-                <a href="#" class="button-modal">
+                <a href="https://primakara.ac.id/" class="button-modal" target="_blank">
                     See Preview
                 </a>
             </div>
@@ -173,10 +173,10 @@
                 <div class="technology-item">Swiper</div>
             </div>
             <div class="button-group d-flex">
-                <a href="#" class="button-modal">
+                <a href="https://github.com/ivanverdyansyah11" class="button-modal" target="_blank">
                     See Github
                 </a>
-                <a href="#" class="button-modal">
+                <a href="https://primakara.ac.id/" class="button-modal" target="_blank">
                     See Preview
                 </a>
             </div>
@@ -204,10 +204,10 @@
                 <div class="technology-item">Swiper</div>
             </div>
             <div class="button-group d-flex">
-                <a href="#" class="button-modal">
+                <a href="https://github.com/ivanverdyansyah11" class="button-modal" target="_blank">
                     See Github
                 </a>
-                <a href="#" class="button-modal">
+                <a href="https://primakara.ac.id/" class="button-modal" target="_blank">
                     See Preview
                 </a>
             </div>
@@ -235,10 +235,10 @@
                 <div class="technology-item">Swiper</div>
             </div>
             <div class="button-group d-flex">
-                <a href="#" class="button-modal">
+                <a href="https://github.com/ivanverdyansyah11" class="button-modal" target="_blank">
                     See Github
                 </a>
-                <a href="#" class="button-modal">
+                <a href="https://primakara.ac.id/" class="button-modal" target="_blank">
                     See Preview
                 </a>
             </div>
