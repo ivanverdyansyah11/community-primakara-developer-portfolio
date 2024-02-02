@@ -1,4 +1,5 @@
 .card-event {
+    width: 100%;
     outline: none;
     stroke: none;
     padding: 32px;
@@ -7,6 +8,10 @@
     background-image: var(--gradient-color);
     border: 1px solid rgba(var(--light-color), 0.12);
     text-align: start;
+}
+
+.card-event:hover {
+    border-color: rgba(var(--light-color), 1);
 }
 
 .event img {
