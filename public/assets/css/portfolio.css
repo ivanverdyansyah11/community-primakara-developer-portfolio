@@ -1,0 +1,37 @@
+section.hero-portfolio .headline {
+    margin-bottom: 56px;
+}
+
+section.hero-portfolio .input-search {
+    width: 100%;
+    position: relative;
+    padding: 19px 26px;
+    background-color: var(--bg-gradient-color);
+    background-image: var(--gradient-color);
+    border: 1px solid rgba(var(--light-color), 0.12);
+    border-radius: 9999px;
+    outline: none;
+    stroke: none;
+    font-size: 0.913rem;
+    color: rgba(var(--light-color), 0.52);
+}
+
+section.hero-portfolio .input-search::placeholder {
+    font-size: 0.913rem;
+    color: rgba(var(--light-color), 0.52);
+    font-family: var(--urbanist-medium);
+}
+
+section.hero-portfolio .content-gap {
+    margin-top: 32px;
+}
+
+@media (max-width: 767.98px) {
+    section.hero-portfolio .headline {
+        margin-bottom: 42px;
+    }
+
+    section.hero-portfolio .content-gap {
+        margin-top: 16px;
+    }
+}
