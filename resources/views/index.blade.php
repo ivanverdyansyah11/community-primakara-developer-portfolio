@@ -201,8 +201,8 @@
     <section class="about section-gap" id="about">
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6">
-                <h2 class="title">Empowering Innovators, Connecting Creators: The Primakara Developer Community Story</h2>
-                <div class="scroll-button">
+                <h2 data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" class="title">Empowering Innovators, Connecting Creators: The Primakara Developer Community Story</h2>
+                <div data-aos="fade-up" data-aos-duration="600" class="scroll-button">
                     <div class="button-group d-flex">
                         <button type="button" class="button-small button-history active">
                             <span>Definition & History</span>
@@ -216,24 +216,24 @@
                     </div>
                 </div>
                 <div class="paragraph-group paragraph-about">
-                    <p class="paragraph-small paragraph-one">At Primakara Developer Community, we believe in the transformative power of collaboration and code. Our community is a vibrant hub where developers, creators, and innovators converge to share knowledge, and build projects.</p>
-                    <p class="paragraph-small paragraph-two">Discover the essence of Primakara, where passion meets proficiency, and where every line of code contributes to a collective journey of digital excellence.</p>
+                    <p data-aos="fade-up" data-aos-duration="600" class="paragraph-small paragraph-one">At Primakara Developer Community, we believe in the transformative power of collaboration and code. Our community is a vibrant hub where developers, creators, and innovators converge to share knowledge, and build projects.</p>
+                    <p data-aos="fade-up" data-aos-duration="600" class="paragraph-small paragraph-two">Discover the essence of Primakara, where passion meets proficiency, and where every line of code contributes to a collective journey of digital excellence.</p>
                 </div>
                 <div class="fact-wrapper">
                     <div class="row row-cols-2 row-cols-md-4 justify-content-between align-items-center">
-                        <div class="col fact-item">
+                        <div data-aos="fade-up" data-aos-duration="600" class="col fact-item">
                             <h1 class="item-value">361+</h1>
                             <p class="item-caption">Total Followings</p>
                         </div>
-                        <div class="col fact-item">
+                        <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="150" class="col fact-item">
                             <h1 class="item-value">15+</h1>
                             <p class="item-caption">Total Mentors</p>
                         </div>
-                        <div class="col fact-item mt-4 mt-md-0">
+                        <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" class="col fact-item mt-4 mt-md-0">
                             <h1 class="item-value">03+</h1>
                             <p class="item-caption">Total Class Learning</p>
                         </div>
-                        <div class="col fact-item mt-4 mt-md-0">
+                        <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="450" class="col fact-item mt-4 mt-md-0">
                             <h1 class="item-value">24+</h1>
                             <p class="item-caption">Total Organized</p>
                         </div>
@@ -241,7 +241,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-xl-5 d-none d-lg-inline-block">
-                <img src="{{ asset('assets/images/about/banner-about.svg') }}" alt="About Banner Image" class="img-fluid" style="width: 100%;">
+                <img data-aos="fade" data-aos-duration="800" src="{{ asset('assets/images/about/banner-about.svg') }}" alt="About Banner Image" class="img-fluid" style="width: 100%;">
             </div>
         </div>
     </section>
