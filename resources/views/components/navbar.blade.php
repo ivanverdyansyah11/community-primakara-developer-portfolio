@@ -1,6 +1,6 @@
 <nav class="navbar navbar-desktop navbar-expand-lg bg-body-tertiary">
     <div class="container">
-        <a class="navbar-brand" href="{{ Route::is('portfolio') ? route('mainpage') : '' }}" data-aos="fade-down" data-aos-duration="600" data-aos-delay="200">
+        <a data-aos="fade-down" data-aos-duration="600" data-aos-delay="200" class="navbar-brand" href="{{ Route::is('portfolio') ? route('mainpage') : '' }}">
             <img src="{{ asset('assets/images/brand/logo-brand.svg') }}" alt="Logo Brand" class="img-fluid" height="40">
         </a>
         <div class="collapse navbar-collapse d-none d-lg-flex justify-content-center" id="navbarNavAltMarkup">
