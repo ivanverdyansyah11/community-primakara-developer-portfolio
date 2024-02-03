@@ -5,13 +5,13 @@
     <section class="hero text-lg-center" id="hero">
         <div class="row justify-content-lg-center">
             <div class="col-xxl-10 d-flex flex-column align-items-lg-center">
-                <h1 class="headline">Empowering Developers, Building Futures Welcome to Primakara Developer Community</h1>
-                <p class="paragraph">Join a thriving ecosystem of passionate developers at Primakara Developer Community. Explore cutting-edge technologies, collaborate on innovative projects, and unlock a world of opportunities. Together, we code the future.</p>
+                <h1 data-aos="fade-up" data-aos-duration="600" data-aos-delay="1400" class="headline">Empowering Developers, Building Futures Welcome to Primakara Developer Community</h1>
+                <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="1550" class="paragraph">Join a thriving ecosystem of passionate developers at Primakara Developer Community. Explore cutting-edge technologies, collaborate on innovative projects, and unlock a world of opportunities. Together, we code the future.</p>
                 <div class="button-group d-flex">
-                    <a href="#event" class="button-primary">
+                    <a data-aos="fade-up" data-aos-duration="600" data-aos-delay="1700" href="#event" class="button-primary">
                         <span>Explore Website Now</span>
                     </a>
-                    <a href="#portfolio" class="button-reverse">
+                    <a data-aos="fade-up" data-aos-duration="600" data-aos-delay="1850" href="#portfolio" class="button-reverse">
                         <span>Discover Our Projects</span>
                     </a>
                 </div>
@@ -24,7 +24,7 @@
     <section class="classes" id="classes">
         <div class="row row-cols-md-2 row-cols-xl-3">
             <div class="col">
-                <button type="button" class="card-classes" data-bs-toggle="modal" data-bs-target="#designModal">
+                <button data-aos="fade-up" data-aos-duration="600" data-aos-delay="2300" type="button" class="card-classes" data-bs-toggle="modal" data-bs-target="#designModal">
                     <h4 class="card-headline">UI/ UX Design</h4>
                     <p class="card-description">Immerse yourself in the world of User Interface (UI) and User Experience (UX) design with Primakara Developer Community. Our UI/UX Design class is tailored for aspiring designers and developers who aspire to create visually stunning and user-centric digital experiences.</p>
                     <div class="class-wrapper d-flex align-items-center" style="gap: 32px;">
@@ -44,7 +44,7 @@
                 </button>
             </div>
             <div class="col mt-4 mt-md-0">
-                <button type="button" class="card-classes" data-bs-toggle="modal" data-bs-target="#frontModal">
+                <button data-aos="fade-up" data-aos-duration="600" data-aos-delay="2450" type="button" class="card-classes" data-bs-toggle="modal" data-bs-target="#frontModal">
                     <h4 class="card-headline">Front End Development</h4>
                     <p class="card-description">Embark on a journey into the realm of Front End Development with Primakara Developer Community. Our comprehensive Front End Development class is designed to empower aspiring developers with the skills and knowledge needed to create captivating user interfaces and seamless user experiences.</p>
                     <div class="class-wrapper d-flex align-items-center" style="gap: 32px;">
@@ -64,7 +64,7 @@
                 </button>
             </div>
             <div class="col mt-4 mt-xl-0">
-                <button type="button" class="card-classes" data-bs-toggle="modal" data-bs-target="#backModal">
+                <button data-aos="fade-up" data-aos-duration="600" data-aos-delay="2600" type="button" class="card-classes" data-bs-toggle="modal" data-bs-target="#backModal">
                     <h4 class="card-headline">Back End Development</h4>
                     <p class="card-description">Dive into the core of web development with Primakara Developer Community's Back End Developer class. Designed for those aspiring to master the server-side of applications, this class equips you with the skills needed to architect robust, scalable, and efficient back-end systems.</p>
                     <div class="class-wrapper d-flex align-items-center" style="gap: 32px;">
