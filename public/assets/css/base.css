@@ -29,7 +29,7 @@
 }
 
 * {
-    transition: var(--transition-duration) !important;
+    transition: var(--transition-duration);
 }
 
 html {
