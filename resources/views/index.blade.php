@@ -330,10 +330,10 @@
     <section class="testimonial section-gap" id="testimonial">
         <div class="row justify-content-between align-items-end">
             <div class="col-lg-7 mb-3 mb-lg-0">
-                <h2 class="title">Voices of Primakara Developer, Member Testimonials</h2>
+                <h2 data-aos="fade-up" data-aos-duration="600" class="title">Voices of Primakara Developer, Member Testimonials</h2>
             </div>
             <div class="col-lg-4">
-                <p class="paragraph-small">Discover the impact of community through the voices of our members.</p>
+                <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="150" class="paragraph-small">Discover the impact of community through the voices of our members.</p>
             </div>
         </div>
         <div class="row content-gap" style="padding-bottom: 56px;">
@@ -342,7 +342,7 @@
                     <div class="swiper mySwiper swiperTestimonial">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                <div data-aos="fade-up" data-aos-duration="600" class="card-default text-center d-flex flex-column align-items-center">
                                     <img src="{{ asset('assets/images/testimonials/testimonial-1.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
                                     <p class="card-default-description">"The collaborative atmosphere and wealth of resources have accelerated my learning journey in ways I couldn't have imagined."</p>
                                     <h6 class="username">Devina Putri</h6>
@@ -350,7 +350,7 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="150" class="card-default text-center d-flex flex-column align-items-center">
                                     <img src="{{ asset('assets/images/testimonials/testimonial-2.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
                                     <p class="card-default-description">“Primakara Developer Community is more than just a network; it's a catalyst for professional growth.”</p>
                                     <h6 class="username">Putra Hartawan</h6>
@@ -358,7 +358,7 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" class="card-default text-center d-flex flex-column align-items-center">
                                     <img src="{{ asset('assets/images/testimonials/testimonial-3.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
                                     <p class="card-default-description">“Primakara Developer Community is a dynamic ecosystem that nurtures creativity and innovation.”</p>
                                     <h6 class="username">Aditya Prayatna</h6>
@@ -366,7 +366,7 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="450" class="card-default text-center d-flex flex-column align-items-center">
                                     <img src="{{ asset('assets/images/testimonials/testimonial-4.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
                                     <p class="card-default-description">“Being a member of Primakara Developer Community has been a transformative experience.”</p>
                                     <h6 class="username">Ayu Adistie</h6>
@@ -374,7 +374,7 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="600" class="card-default text-center d-flex flex-column align-items-center">
                                     <img src="{{ asset('assets/images/testimonials/testimonial-5.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
                                     <p class="card-default-description">"The collaborative spirit and diverse projects have not only expanded my technical skills."</p>
                                     <h6 class="username">Desta Manakan</h6>
@@ -382,7 +382,7 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card-default text-center d-flex flex-column align-items-center">
+                                <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="750" class="card-default text-center d-flex flex-column align-items-center">
                                     <img src="{{ asset('assets/images/testimonials/testimonial-6.webp') }}" alt="Testimonial Image" class="img-fluid" width="52">
                                     <p class="card-default-description">"The community's commitment to knowledge-sharing and collaboration is unmatched."</p>
                                     <h6 class="username">Alice Alicia</h6>
@@ -391,7 +391,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                    <div data-aos="fade" data-aos-duration="600" class="swiper-pagination swiper-pagination-testimonial"></div>
                 </div>
             </div>
         </div>
@@ -402,15 +402,15 @@
     <section class="faq section-gap" id="faq">
         <div class="row justify-content-between align-items-end">
             <div class="col-lg-7 mb-3 mb-lg-0">
-                <h2 class="title">Frequently Asked Questions About Primakara Developer</h2>
+                <h2 data-aos="fade-up" data-aos-duration="600" class="title">Frequently Asked Questions About Primakara Developer</h2>
             </div>
             <div class="col-lg-4">
-                <p class="paragraph-small">Have questions about Primakara Developer Community? We've got answers.</p>
+                <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="150" class="paragraph-small">Have questions about Primakara Developer Community? We've got answers.</p>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 content-gap">
             <div class="col">
-                <button type="button" class="card-default card-faq show">
+                <button data-aos="fade-up" data-aos-duration="600" type="button" class="card-default card-faq show">
                     <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
                         <h6 class="card-default-title">How can I join Primakara Developer Community?</h6>
                         <div class="arrow-icon d-flex align-items-center justify-content-center">
@@ -422,7 +422,7 @@
                     </div>
                 </button>
 
-                <button type="button" class="card-default card-faq mt-4">
+                <button data-aos="fade-up" data-aos-duration="600" type="button" class="card-default card-faq mt-4">
                     <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
                         <h6 class="card-default-title">What resources are available for learning and skill development?</h6>
                         <div class="arrow-icon d-flex align-items-center justify-content-center">
@@ -434,7 +434,7 @@
                     </div>
                 </button>
 
-                <button type="button" class="card-default card-faq mt-4">
+                <button data-aos="fade-up" data-aos-duration="600" type="button" class="card-default card-faq mt-4">
                     <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
                         <h6 class="card-default-title">Are there networking opportunities within the community?</h6>
                         <div class="arrow-icon d-flex align-items-center justify-content-center">
@@ -446,7 +446,7 @@
                     </div>
                 </button>
 
-                <button type="button" class="card-default card-faq mt-4">
+                <button data-aos="fade-up" data-aos-duration="600" type="button" class="card-default card-faq mt-4">
                     <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
                         <h6 class="card-default-title">How can I stay updated on community events and announcements?</h6>
                         <div class="arrow-icon d-flex align-items-center justify-content-center">
@@ -459,7 +459,7 @@
                 </button>
             </div>
             <div class="col mt-4 mt-lg-0">
-                <button type="button" class="card-default card-faq">
+                <button data-aos="fade-up" data-aos-duration="600" type="button" class="card-default card-faq">
                     <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
                         <h6 class="card-default-title">How can I contribute to projects within the community?</h6>
                         <div class="arrow-icon d-flex align-items-center justify-content-center">
@@ -471,7 +471,7 @@
                     </div>
                 </button>
 
-                <button type="button" class="card-default card-faq mt-4">
+                <button data-aos="fade-up" data-aos-duration="600" type="button" class="card-default card-faq mt-4">
                     <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
                         <h6 class="card-default-title">How can I showcase my own projects on the community platform?</h6>
                         <div class="arrow-icon d-flex align-items-center justify-content-center">
@@ -483,7 +483,7 @@
                     </div>
                 </button>
 
-                <button type="button" class="card-default card-faq mt-4">
+                <button data-aos="fade-up" data-aos-duration="600" type="button" class="card-default card-faq mt-4">
                     <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
                         <h6 class="card-default-title">Is there a mentorship program available for community members?</h6>
                         <div class="arrow-icon d-flex align-items-center justify-content-center">
@@ -495,7 +495,7 @@
                     </div>
                 </button>
 
-                <button type="button" class="card-default card-faq mt-4">
+                <button data-aos="fade-up" data-aos-duration="600" type="button" class="card-default card-faq mt-4">
                     <div class="card-wrapper d-flex align-items-center justify-content-between gap-4">
                         <h6 class="card-default-title">Is there a membership fee to join Primakara Developer Community?</h6>
                         <div class="arrow-icon d-flex align-items-center justify-content-center">
