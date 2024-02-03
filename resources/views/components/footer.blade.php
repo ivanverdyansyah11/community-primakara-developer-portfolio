@@ -1,5 +1,5 @@
 {{-- SECTION FOOTER --}}
-<footer class="footer section-gap">
+<footer data-aos="fade" data-aos-duration="800" class="footer section-gap">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 mb-4 mb-lg-0">
