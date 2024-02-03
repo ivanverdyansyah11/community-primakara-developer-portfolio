@@ -150,15 +150,15 @@
     <section class="benefit section-gap" id="benefit">
         <div class="row justify-content-between align-items-end">
             <div class="col-lg-7 mb-3 mb-lg-0">
-                <h2 class="title">Benefits of Joining Primakara Developer Community</h2>
+                <h2 data-aos="fade-up" data-aos-duration="600" class="title">Benefits of Joining Primakara Developer Community</h2>
             </div>
             <div class="col-lg-4">
-                <p class="paragraph-small">Joining our vibrant community opens the door to a world of opportunities and advantages.</p>
+                <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="150" class="paragraph-small">Joining our vibrant community opens the door to a world of opportunities and advantages.</p>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 content-gap">
             <div class="col">
-                <button type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitOneModal">
+                <button data-aos="fade-up" data-aos-duration="600" type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitOneModal">
                     <div class="benefit-icon d-flex justify-content-center align-items-center">
                         <img src="{{ asset('assets/images/benefits/benefit-1.svg') }}" alt="Benefit Icon" class="img-fluid" width="24">
                     </div>
@@ -167,7 +167,7 @@
                 </button>
             </div>
             <div class="col mt-4 mt-md-0">
-                <button type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitTwoModal">
+                <button data-aos="fade-up" data-aos-duration="600" data-aos-delay="150" type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitTwoModal">
                     <div class="benefit-icon d-flex justify-content-center align-items-center">
                         <img src="{{ asset('assets/images/benefits/benefit-2.svg') }}" alt="Benefit Icon" class="img-fluid" width="24">
                     </div>
@@ -176,7 +176,7 @@
                 </button>
             </div>
             <div class="col mt-4 mt-lg-0">
-                <button type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitThreeModal">
+                <button data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitThreeModal">
                     <div class="benefit-icon d-flex justify-content-center align-items-center">
                         <img src="{{ asset('assets/images/benefits/benefit-3.svg') }}" alt="Benefit Icon" class="img-fluid" width="24">
                     </div>
@@ -185,7 +185,7 @@
                 </button>
             </div>
             <div class="col mt-4 mt-lg-0">
-                <button type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitFourModal">
+                <button data-aos="fade-up" data-aos-duration="600" data-aos-delay="450" type="button" class="card-default" data-bs-toggle="modal" data-bs-target="#benefitFourModal">
                     <div class="benefit-icon d-flex justify-content-center align-items-center">
                         <img src="{{ asset('assets/images/benefits/benefit-4.svg') }}" alt="Benefit Icon" class="img-fluid" width="24">
                     </div>
