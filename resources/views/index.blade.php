@@ -91,10 +91,10 @@
     <section class="event section-gap" id="event">
         <div class="row justify-content-between align-items-end">
             <div class="col-lg-7 mb-3 mb-lg-0">
-                <h2 class="title">Unforgettable Moments from Primakara Developer Community Events</h2>
+                <h2 data-aos="fade-up" data-aos-duration="600" class="title">Unforgettable Moments from Primakara Developer Community Events</h2>
             </div>
             <div class="col-lg-4">
-                <p class="paragraph-small">Journey with us through the memories of our past events at Primakara Developer Community.</p>
+                <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="150" class="paragraph-small">Journey with us through the memories of our past events at Primakara Developer Community.</p>
             </div>
         </div>
         <div class="row content-gap" style="padding-bottom: 56px;">
@@ -103,43 +103,43 @@
                     <div class="swiper mySwiper swiperEvent">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-devfest-bali-2023/" class="card-event" target="_blank">
+                                <a data-aos="fade-up" data-aos-duration="600" href="https://gdg.community.dev/events/details/google-gdg-bali-presents-devfest-bali-2023/" class="card-event" target="_blank">
                                     <img src="{{ asset('assets/images/events/event-1.webp') }}" alt="Event Image" class="img-fluid">
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-google-io-extended-bali-2023/" class="card-event" target="_blank">
+                                <a data-aos="fade-up" data-aos-duration="600" data-aos-delay="150" href="https://gdg.community.dev/events/details/google-gdg-bali-presents-google-io-extended-bali-2023/" class="card-event" target="_blank">
                                     <img src="{{ asset('assets/images/events/event-2.webp') }}" alt="Event Image" class="img-fluid">
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-gdg-bali-community-meetup-may-edition/" class="card-event" target="_blank">
+                                <a data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" href="https://gdg.community.dev/events/details/google-gdg-bali-presents-gdg-bali-community-meetup-may-edition/" class="card-event" target="_blank">
                                     <img src="{{ asset('assets/images/events/event-7.webp') }}" alt="Event Image" class="img-fluid">
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-devfest-bali-2022/" class="card-event" target="_blank">
+                                <a data-aos="fade-up" data-aos-duration="600" data-aos-delay="450" href="https://gdg.community.dev/events/details/google-gdg-bali-presents-devfest-bali-2022/" class="card-event" target="_blank">
                                     <img src="{{ asset('assets/images/events/event-6.webp') }}" alt="Event Image" class="img-fluid">
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-women-techmakers-bali-first-meetup/" class="card-event" target="_blank">
+                                <a data-aos="fade-up" data-aos-duration="600" data-aos-delay="600" href="https://gdg.community.dev/events/details/google-gdg-bali-presents-women-techmakers-bali-first-meetup/" class="card-event" target="_blank">
                                     <img src="{{ asset('assets/images/events/event-5.webp') }}" alt="Event Image" class="img-fluid">
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-gdg-bali-x-pintu-introduction-to-web3/" class="card-event" target="_blank">
+                                <a data-aos="fade-up" data-aos-duration="600" data-aos-delay="750" href="https://gdg.community.dev/events/details/google-gdg-bali-presents-gdg-bali-x-pintu-introduction-to-web3/" class="card-event" target="_blank">
                                     <img src="{{ asset('assets/images/events/event-4.webp') }}" alt="Event Image" class="img-fluid">
                                 </a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://gdg.community.dev/events/details/google-gdg-bali-presents-google-io-extended-bali-2022/" class="card-event" target="_blank">
+                                <a data-aos="fade-up" data-aos-duration="600" data-aos-delay="900" href="https://gdg.community.dev/events/details/google-gdg-bali-presents-google-io-extended-bali-2022/" class="card-event" target="_blank">
                                     <img src="{{ asset('assets/images/events/event-3.webp') }}" alt="Event Image" class="img-fluid">
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination swiper-pagination-event"></div>
+                    <div data-aos="fade" data-aos-duration="600" class="swiper-pagination swiper-pagination-event"></div>
                 </div>
             </div>
         </div>
