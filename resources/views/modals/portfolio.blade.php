@@ -245,3 +245,65 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="portfolioNineModal" tabindex="-1" aria-labelledby="portfolioNineModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content content-portfolio">
+            <div class="header-wrapper d-flex align-items-center justify-content-between">
+                <h4 class="modal-headline">Landing Page HR Management</h4>
+                <button type="button" data-bs-dismiss="modal" style="all: unset; cursor: pointer;">
+                    <img src="{{ asset('assets/images/icons/exit.svg') }}" alt="Exit Modal Icon" class="img-fluid" width="18">
+                </button>
+            </div>
+            <img src="{{ asset('assets/images/portfolios/portfolio-7.webp') }}" alt="Portfolio Image" class="img-fluid portfolio-image" style="width: 100%;">
+            <p class="modal-description">Step into the future of Human Resources with our HR Management Landing Page. Tailored for organizations seeking innovative solutions, this page offers a glimpse into cutting-edge HR technology and streamlined processes. Explore features such as employee onboarding, performance tracking, and collaborative workforce management. Elevate your HR capabilities and cultivate a workplace that thrives on efficiency, engagement, and seamless employee experiences.</p>
+            <div class="technology-wrapper d-flex flex-wrap">
+                <div class="technology-item">HTML</div>
+                <div class="technology-item">CSS 3</div>
+                <div class="technology-item">Java Script</div>
+                <div class="technology-item">PHP</div>
+                <div class="technology-item">Laravel</div>
+                <div class="technology-item">Swiper</div>
+            </div>
+            <div class="button-group d-flex">
+                <a href="https://github.com/ivanverdyansyah11" class="button-modal" target="_blank">
+                    See Github
+                </a>
+                <a href="https://primakara.ac.id/" class="button-modal" target="_blank">
+                    See Preview
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="portfolioTenModal" tabindex="-1" aria-labelledby="portfolioTenModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content content-portfolio">
+            <div class="header-wrapper d-flex align-items-center justify-content-between">
+                <h4 class="modal-headline">Landing Page Company Profile</h4>
+                <button type="button" data-bs-dismiss="modal" style="all: unset; cursor: pointer;">
+                    <img src="{{ asset('assets/images/icons/exit.svg') }}" alt="Exit Modal Icon" class="img-fluid" width="18">
+                </button>
+            </div>
+            <img src="{{ asset('assets/images/portfolios/portfolio-8.webp') }}" alt="Portfolio Image" class="img-fluid portfolio-image" style="width: 100%;">
+            <p class="modal-description">Welcome to our Company Profile Landing Page, your gateway to understanding the essence of our organization. This page provides a comprehensive overview of our company's mission, values, and key achievements. Dive into the narrative of our journey, explore our services, and understand how we deliver value to our clients. Immerse yourself in the story of our brand, where innovation meets excellence, as we invite you to explore the dynamic world of our company profile.</p>
+            <div class="technology-wrapper d-flex flex-wrap">
+                <div class="technology-item">HTML</div>
+                <div class="technology-item">CSS 3</div>
+                <div class="technology-item">Java Script</div>
+                <div class="technology-item">PHP</div>
+                <div class="technology-item">Laravel</div>
+                <div class="technology-item">Swiper</div>
+            </div>
+            <div class="button-group d-flex">
+                <a href="https://github.com/ivanverdyansyah11" class="button-modal" target="_blank">
+                    See Github
+                </a>
+                <a href="https://primakara.ac.id/" class="button-modal" target="_blank">
+                    See Preview
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
