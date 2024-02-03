@@ -9,7 +9,7 @@
                 <a href="https://wa.me/6282147382985" class="button-primary" target="_blank">
                     <span>Join <div class="d-none d-md-inline-block">the</div> Community</span>
                 </a>
-                <a href="{{ Route::is('mainpage') ? route('portfolio') : '#portfolio' }}" class="button-reverse">
+                <a href="{{ Route::is('mainpage') ? route('portfolio') : '#home' }}" class="button-reverse">
                     <span>Explore Our Projects</span>
                 </a>
             </div>
